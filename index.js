@@ -22,5 +22,5 @@ function makeInt(n){
   return (parseInt(`${n}`, 10))
 }
 function preserveDecimal(n){
-  return (subtract(parseFloat(`{n}`),makeInt(`${n}`)))
+  return (parseFloat(`${n}`))
 }
